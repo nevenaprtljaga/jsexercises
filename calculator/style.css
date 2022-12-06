@@ -1,0 +1,13 @@
+.gridCalc{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20%;
+    padding: 15px;
+}
+.gridCalc button{
+    padding: 5px;
+    margin: 3px;
+}
+label{
+    font-size: 20px;
+    margin-left: 5%;
+}

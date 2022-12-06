@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="gridCalc">
+                <button class="numbers" onclick="getValue(this)" value="7" onkeydown="eventKey(event)">7</button>
+                <button class="numbers" onclick="getValue(this)" value="8" onkeydown="eventKey(event)">8</button>
+                <button class="numbers" onclick="getValue(this)" value="9" onkeydown="eventKey(event)">9</button>
+                <button class="operation" onclick="getValue(this)" value="/" onkeydown="eventKey(event)">/</button>
+                <button class="numbers" onclick="getValue(this)" value="4" onkeydown="eventKey(event)">4</button>
+                <button class="numbers" onclick="getValue(this)" value="5" onkeydown="eventKey(event)">5</button>
+                <button class="numbers" onclick="getValue(this)" value="6" onkeydown="eventKey(event)">6</button>
+                <button class="operation" onclick="getValue(this)" value="*" onkeydown="eventKey(event)">*</button>
+                <button class="numbers" onclick="getValue(this)" value="1" onkeydown="eventKey(event)">1</button>
+                <button class="numbers" onclick="getValue(this)" value="2" onkeydown="eventKey(event)">2</button>
+                <button class="numbers" onclick="getValue(this)" value="3" onkeydown="eventKey(event)">3</button>
+                <button class="operation" onclick="getValue(this)" value="-" onkeydown="eventKey(event)">-</button>
+                <button class="numbers" onclick="getValue(this)" value="0" onkeydown="eventKey(event)">0</button>
+                <button class="numbers" onclick="clearAll()">Clear</button>
+                <button class="operation" onclick="calculate()">=</button>
+                <button class="operation" onclick="getValue(this)" value="+" onkeydown="eventKey(event)">+</button>
+            </div>
+            <label type="text" id="output">Output: </label>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
